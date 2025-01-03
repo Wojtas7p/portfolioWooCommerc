@@ -8,4 +8,27 @@ Template:     	storefront
 */
 
 body{
+    
+}
+
+body .site-header{
+display: flex;
+justify-content: center;
+}
+
+.col-full wp-dark-mode-bg-image{
+    margin: 0;
+}
+
+
+.col-full {
+        margin: 0;
+    }
+    .woocommerce-active .site-header .site-branding{
+    width: auto;
+    margin-top: 15%;
+}
+
+.woocommerce-active .site-header .site-header-cart{
+    width: auto;
 }
